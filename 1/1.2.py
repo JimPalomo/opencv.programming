@@ -2,7 +2,7 @@
 
 import cv2 as cv
 
-cap = cv.VideoCapture("traffic.mp4")
+cap = cv.VideoCapture("../Resources/traffic.mp4")
 
 while True:
     success, img = cap.read()
